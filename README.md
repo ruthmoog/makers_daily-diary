@@ -46,8 +46,17 @@ tbc
 
 ## Testing
 
-tbc
+0. In the terminal use `bundle install` to install the required gems
+0. Run tests in the terminal with `rspec`
+
+```shell
+$ rspec
+No examples found.
+
+Finished in 0.00037 seconds (files took 0.07995 seconds to load)
+0 examples, 0 failures
+```
 
 ## Run the Application
 
-tbc
+0. In the terminal use `bundle install` to install the required gems.
