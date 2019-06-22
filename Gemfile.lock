@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
+    ansi (1.5.0)
     ast (2.4.0)
     capybara (3.24.0)
       addressable
@@ -57,12 +58,18 @@ GEM
       docile (~> 1.1)
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
+    simplecov-console (0.5.0)
+      ansi
+      simplecov
+      terminal-table
     simplecov-html (0.10.2)
     sinatra (2.0.5)
       mustermann (~> 1.0)
       rack (~> 2.0)
       rack-protection (= 2.0.5)
       tilt (~> 2.0)
+    terminal-table (1.8.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
     tilt (2.0.9)
     unicode-display_width (1.6.0)
     xpath (3.2.0)
@@ -74,8 +81,9 @@ PLATFORMS
 DEPENDENCIES
   capybara
   rspec
-  rubocop
+  rubocop (~> 0.71.0)
   simplecov
+  simplecov-console
   sinatra
 
 RUBY VERSION
